@@ -1,3 +1,3 @@
 # Android Java Hello World
 
-<img src="app.png" width="500" height="800">
+<img src="app.png" width="400" height="800">
