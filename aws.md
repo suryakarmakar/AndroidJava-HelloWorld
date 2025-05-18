@@ -62,19 +62,19 @@ AWS Regions are independent from one another. This means that your data is not r
 
 Consider four main aspects when deciding which AWS Region to host your applications and workloads: latency, price, service availability, and compliance.
 
-Latency -
+- Latency -
 
 If your application is sensitive to latency, choose a Region that is close to your user base. This helps prevent long wait times for your customers. Synchronous applications such as gaming, telephony, WebSockets, and IoT are significantly affected by higher latency, but even asynchronous workloads, such as ecommerce applications, can suffer from an impact on user connectivity.
 
-Price -
+- Price -
 
 Due to the local economy and the physical nature of operating data centers, prices may vary from one Region to another. The pricing in a Region can be impacted by internet connectivity, prices of imported pieces of equipment, customs, real estate, and more. Instead of charging a flat rate worldwide, AWS charges based on the financial factors specific to the location.
 
-Service availability -
+- Service availability -
 
 Some services may not be available in some Regions. The AWS documentation provides a table containing the Regions and the available services within each one.
 
-Data compliance -
+- Data compliance -
 
 Enterprise companies often need to comply with regulations that require customer data to be stored in a specific geographic territory. If applicable, you should choose a Region that meets your compliance requirements.
 
